@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackPink</title>
+    <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./backpinkweb.css">
+</head>
+
+<body>
+    < id="main">
+        <!-- Begin nav -->
+        <div id="header">
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="">
+                        More
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End div -->
+            <!-- Begin search button -->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+            <!-- End search button -->
+
+        </div>
+
+        <div id="slider">
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/img/slider/slider1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/img/slider/slider3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <!-- cha của text-->
+            <div class="text-content">
+                <h2 class="text-heading">New York</h2> <!--  h2 vì không phải heading chính -->
+                <div class="text-description">The atmosphere in New York is lorem ipsum.</div>
+            </div> <!-- con -->
+        </div>
+
+        <div id="content">
+            <!-- About section -->
+            <div id="band" class="content-section">
+                <h2 class="content-heading">THE BAND</h2>
+                <div class="content-sub-heading">We love music!</div>
+                <p class="about-text">
+                    Blackpink is a South Korean girl group formed by YG Entertainment, consisting of members Jisoo,
+                    Jennie, Rosé, and Lisa. The group debuted in August 2016 with their single album Square One, which
+                    featured "Whistle" and "Boombayah", their first number-one entries on South Korea's Gaon Digital
+                    Chart and the Billboard World Digital Song Sales chart, respectively.
+                </p>
+
+                <div class="member-list">
+                    <div class="member-item">
+                        <div class="member-name">Rose</div>
+                        <img src="./assets/img/backpink members/Rose.jpg" alt="Name" class="member-img">
+                    </div>
+
+                    <div class="member-item">
+                        <div class="member-name">Jisoo</div>
+                        <img src="./assets/img/backpink members/Jisoo.jpg" alt="Name" class="member-img">
+                    </div>
+
+                    <div class="member-item">
+                        <div class="member-name">Jennie</div>
+                        <img src="./assets/img/backpink members/Jennie.jpg" alt="Name" class="member-img">
+                    </div>
+
+                    <div class="member-item">
+                        <div class="member-name">Lisa</div>
+                        <img src="./assets/img/backpink members/Lisa.jpg" alt="Name" class="member-img">
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!-- Tour section -->
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h2 class="content-heading text-white">TOUR DATES</h2>
+                    <div class="content-sub-heading text-white">Remember to book your tickets!</div>
+                    <!-- Tickets -->
+                    <ul class="tickets-list">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+
+                    <div class="row places-list">
+                        <div class="col col-third">
+                            <img src="./assets/img/Places/NewYork.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">New York</h3>
+                                <p class="place-time">Fri 27 Nov 2018</p>
+                                <p class="place-descr">Don't miss out on the greatest live events in New York</p>
+                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <div class="col col-third">
+                            <img src="./assets/img/Places/Paris.jpg" alt="Paris" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Paris</h3>
+                                <p class="place-time">Fri 27 Nov 2018</p>
+                                <p class="place-descr">Don't miss out on the greatest live events in Paris</p>
+                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-third">
+                            <img src="./assets/img/Places/San Francisco.jpg" alt="San Francisco" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">San Francisco</h3>
+                                <p class="place-time">Fri 27 Nov 2018</p>
+                                <p class="place-descr">Don't miss out on the greatest live events in San Francisco</p>
+                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+            <!-- Begin: Contact section -->
+            <div id="contact" class="content-section">
+                <h2 class="content-heading">CONTACT</h2>
+                <div class="content-sub-heading">Fan? Drop a note!</div>
+
+                <div class="row contact-content">
+                    <!-- Row 1 -->
+                    <div class="col col-half contact-info">
+                        <p><i class="ti-location-pin"></i>Chicago, US</p>
+                        <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+                        <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                    </div>
+                    <!-- Row 2 -->
+                    <div class="col col-half contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half">
+                                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                </div>
+                                <div class="col col-half">
+                                    <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="Message" required id=""
+                                        class="form-control">
+                                </div>
+                            </div>
+                            <input class="btn pull-right mt-16" type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- End: Contact section -->
+
+            <!-- Begin: Map -->
+            <div class="map-section">
+                <img src="./assets/img/map.jpg" alt="Nap">
+            </div>
+            <!-- End: Map -->
+
+            <!-- Begin:Footer -->
+            <div id="footer">
+                <div class="socials-list">
+                    <a href=""><i class="ti-facebook"></i></a>
+                    <a href=""><i class="ti-instagram"></i></a>
+                    <a href=""><i class="ti-youtube"></i></a>
+                    <a href=""><i class="ti-pinterest"></i></a>
+                    <a href=""><i class="ti-twitter"></i></a>
+                    <a href=""><i class="ti-linkedin"></i></a>
+                </div>
+                <p class="copyright">Powered by <a href="">w3.css</a></p>
+            </div>
+        </div>
+
+        </div>
+
+
+
+        <div class="modal js-modal">
+            <div class="modal-container js-modal-container">
+                <div class="modal-close js-modal-close">
+                    <i class="ti-close"></i>
+                </div>
+
+                <header class="modal-header">
+                    <i class="modal-heading-icon ti-bag"></i>
+                    Tickets
+                </header>
+
+                <div class="modal-body">
+                    <label for="" class="modal-label">
+                        <i class="ti-shopping-cart"></i>
+                        Tickets, $15 per person
+                    </label>
+                    <input type="text" class="modal-input" placeholder="How many?">
+
+                    <label for="" class="modal-label">
+                        <i class="ti-user"></i>
+                        Send to
+                    </label>
+                    <input type="text" class="modal-input" placeholder="Enter email...">
+
+                    <button id="buy-tickets">
+                        Pay <i class="ti-check"></i>
+                    </button>
+                </div>
+
+                <footer class="modal-footer">
+                    <p class="modal-help">Need <a href="">help?</a></p>
+                </footer>
+            </div>
+        </div>
+        <script>
+            const buyBtns = document.querySelectorAll('.js-buy-ticket')
+            const modal = document.querySelector('.js-modal')
+            const modalContainer = document.querySelector('.js-modal-container')
+            const modalClose = document.querySelector('.js-modal-close')
+
+            function showBuyTickets() {
+                modal.classList.add('open')
+            }
+
+            function hideBuyTickets() {
+                modal.classList.remove('open')
+            }
+
+            for (const buyBtn of buyBtns) {
+                buyBtn.addEventListener('click', showBuyTickets)
+            }
+
+            modalClose.addEventListener('click', hideBuyTickets)
+
+            modalContainer.addEventListener('click', function (event) {
+                event.stopPropagation()
+            })
+        </script>
+
+        <!-- JAVASCRIPT -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+            integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+/* Reset CSS */
+* { /* Emmet */
+    padding: 0;
+    margin: 0;
+    box-sizing: boder-box;
+} /* Thẻ * là lên tất cả các thẻ */
+
+html {
+    font-family: Arial, Helvetica, sans-serif ; /* Set font chữ cho cả website */
+}
+/* 
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Từ tổng quan đến chi tiết */
+
+/* Ctrl Shift L
+Mũi tên phải 
+Alt shift mũi tên phải
+Ctrl C - Paste
+Giữ ALT click header, slide... # 
+Bỏ shift 
+ALT mũi tên phải*/
+
+/* 
+1. Vị trí
+2. Kích thước (width, height)
+3. Màu sắc 
+4. Kiểu dáng (kiểu chữ, hình tròn, vuông, ... */
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: #000; /* #00: đen */
+}
+
+#nav {
+
+}
+
+#nav li {
+    display: inline-block; /* inline trên 1 hàng nên ngang, block giữ lại tính chất khối để đặt kích thước */
+} /* Cấp 1 */
+/* Thẻ a chứa chữ */
+#nav li a {
+    color: #fff; /* #fff màu trắng */
+    text-decoration: none; /* Bỏ gạch chân */
+    line-height: 46px ; /* Căn giữa, chữ nằm giữa chiều cao chính nó, chiều cao bằng header */
+    padding: 0 24px 0 24px;
+    display: inline-block;
+}
+#nav li:hover a {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav {
+   /*  display: none; */ /* ẩn đi */
+
+} /* Cấp 2 */
+
+#slider {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}
